@@ -18,3 +18,9 @@ body {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.shape {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
