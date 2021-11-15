@@ -1,3 +1,20 @@
 body {
     font-family: Arial;
 }
+
+.wave-container {
+    position: relative;
+    height: 50vh;
+}
+
+.wave-container h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    background: linear-gradient(to right, white, rgb(162, 247, 238));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
